@@ -8,6 +8,7 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { motion } from 'framer-motion';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 function App() {
   return (
