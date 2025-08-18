@@ -192,7 +192,7 @@ const Experience = () => {
                       variants={itemVariants}
                     >
                       <a 
-                        href="https://github.com" 
+                        href="https://github.com/yasarboi" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center space-x-2"
