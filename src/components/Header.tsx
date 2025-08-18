@@ -292,8 +292,9 @@ const Header = () => {
               className="md:hidden overflow-hidden"
               style={{
                 background: 'linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.9) 100%)',
-                backdropFilter: 'blur(16px)',
-                borderTop: '1px solid rgba(71, 85, 105, 0.3)'
+                backdropFilter: 'blur(16px)', // You can adjust or remove this for testing
+                borderTop: '1px solid rgba(71, 85, 105, 0.3)',
+                zIndex: 60, // Ensure it is on top of other elements
               }}
             >
               <div className="px-4 py-4 space-y-1">
@@ -313,14 +314,16 @@ const Header = () => {
                       transition={{ delay: index * 0.05 }}
                       whileHover={{ x: 8, scale: 1.02 }}
                       style={{
-                        boxShadow: isActive ? 
-                          '0 4px 16px rgba(30, 64, 175, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.1)' : 
-                          'none'
+                        boxShadow: isActive
+                          ? '0 4px 16px rgba(30, 64, 175, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.1)'
+                          : 'none',
                       }}
                     >
                       {isActive && (
-                        <div className="absolute left-1 top-1/2 transform -translate-y-1/2 w-1 h-6 bg-blue-300 rounded-full shadow-lg" 
-                             style={{ boxShadow: '0 0 8px rgba(147, 197, 253, 0.8)' }} />
+                        <div
+                          className="absolute left-1 top-1/2 transform -translate-y-1/2 w-1 h-6 bg-blue-300 rounded-full shadow-lg"
+                          style={{ boxShadow: '0 0 8px rgba(147, 197, 253, 0.8)' }}
+                        />
                       )}
                       <span className="text-lg opacity-70">{item.icon}</span>
                       <span className={isActive ? '' : ''}>{item.label}</span>
@@ -339,6 +342,7 @@ const Header = () => {
             </motion.div>
           )}
         </AnimatePresence>
+
       </div>
     </motion.header>
   );
