@@ -268,7 +268,7 @@ const Hero = () => {
             <motion.div className="relative inline-block" whileHover={{ scale: 1.05 }}>
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-800/50 to-indigo-800/50 blur-xl animate-pulse" />
               <img
-                src="https://photos.google.com/share/AF1QipPdedA5XwJnxjREzsyF50eBtXfxuuiB3XbUlv8-TNPGgfn_WThTyZ2HIGHUhg9Z0w/photo/AF1QipMtAvS4H1aSwPPqEQCv7coJpjUbwTTLM2NO17m-?key=UDlZN19oVzJNVFZPMmdBRTZ5dTdaMlhqdUFjVHhB"
+                src="https://ik.imagekit.io/cys7fe7bp/IMG_4052.jpg?updatedAt=1755942588841"
                 alt="Samin Yasar Shasso"
                 className="relative w-32 h-32 rounded-full mx-auto mb-6 border-4 border-blue-800/50 shadow-2xl"
               />
