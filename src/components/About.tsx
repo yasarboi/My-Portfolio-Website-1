@@ -64,7 +64,7 @@ const About = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover opacity-10"
       >
-        <source src="https://streamable.com/jztm90" type="video/mp4" />
+        <source src="https://ik.imagekit.io/cys7fe7bp/10004433-uhd_4096_2160_30fps.mp4?updatedAt=1755968212907" type="video/mp4" />
       </video>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" ref={ref}>

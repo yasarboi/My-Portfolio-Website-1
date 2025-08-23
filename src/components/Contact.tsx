@@ -71,7 +71,7 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       name: 'LinkedIn',
-      url: 'https://linkedin.com',
+      url: 'http://linkedin.com/in/samin-yasar-shasso-40a10a21b',
       color: 'hover:text-blue-400',
       bgColor: 'hover:bg-blue-400/10'
     },
@@ -143,7 +143,7 @@ const Contact = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover opacity-5"
       >
-        <source src="https://streamable.com/rlccuy" type="video/mp4" />
+        <source src="https://ik.imagekit.io/cys7fe7bp/6068178-uhd_3840_2160_30fps.mp4?updatedAt=1755968200419" type="video/mp4" />
       </video>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" ref={ref}>
